@@ -12,7 +12,7 @@ const config = {
 	title: "Phân tích và thiết kế thuật toán",
 	tagline:
 		"Tài liệu này được viết bởi một con vịt - sinh viên năm 2 ngành CS",
-	url: "https://your-docusaurus-test-site.com",
+	url: "https://ptvtktt.web.app",
 	baseUrl: "/",
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
@@ -29,7 +29,7 @@ const config = {
 					sidebarPath: require.resolve("./sidebars.js"),
 					// Please change this to your repo.
 					editUrl:
-						"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+						"https://github.com/thangved/ptvtktt/tree/main/packages/create-docusaurus/templates/shared/",
 					remarkPlugins: [math],
 					rehypePlugins: [katex],
 				},
@@ -37,7 +37,7 @@ const config = {
 					showReadingTime: true,
 					// Please change this to your repo.
 					editUrl:
-						"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+						"https://github.com/thangved/ptvtktt/tree/main/packages/create-docusaurus/templates/shared/",
 				},
 				theme: {
 					customCss: require.resolve("./src/css/custom.css"),
@@ -75,7 +75,7 @@ const config = {
 						label: "Tài liệu",
 					},
 					{
-						href: "https://github.com/facebook/docusaurus",
+						href: "https://github.com/thangved/ptvtktt",
 						label: "GitHub",
 						position: "right",
 					},
