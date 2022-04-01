@@ -28,14 +28,14 @@ const config = {
 				docs: {
 					sidebarPath: require.resolve("./sidebars.js"),
 					// Please change this to your repo.
-					editUrl: "https://github.com/thangved/ptvtktt/tree/main/",
+					editUrl: "https://github.com/thangved/ptvtktt/tree/master/",
 					remarkPlugins: [math],
 					rehypePlugins: [katex],
 				},
 				blog: {
 					showReadingTime: true,
 					// Please change this to your repo.
-					editUrl: "https://github.com/thangved/ptvtktt/tree/main/",
+					editUrl: "https://github.com/thangved/ptvtktt/tree/master/",
 				},
 				theme: {
 					customCss: require.resolve("./src/css/custom.css"),
